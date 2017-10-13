@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--血氧-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="278px"
+    android:layout_height="220px"
+    android:background="@drawable/rounded_rectangle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spo2"
+            android:textColor="@color/measure_name_text_color"
+            android:textSize="@dimen/px18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_percent"
+            android:textColor="@color/measure_name_text_color"
+            android:textSize="@dimen/px14" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/tv_spo2_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_spo2_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/tv_spo2_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_default"
+            android:textSize="@dimen/px60"
+            android:layout_alignParentTop="true">
+
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pr_cn"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/health_unit_bpm"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_spo2_count_down"
+            android:textColor="@color/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/count_down"
+            android:visibility="invisible"
+            android:textSize="@dimen/px18" />
+
+        <com.konsung.ui.defineview.RoundProgressBar
+            android:id="@+id/progress_bar_spo2"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:layout_gravity="center_vertical"
+            app:roundColor="@color/progress_circle"
+            app:roundProgressColor="@color/progress_color"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:text="@string/invalid_data"-->
+            <!--android:textColor="@color/value_text"-->
+            <!--android:textSize="@dimen/px18" />-->
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/px2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px10"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10">
+
+        <TextView
+            android:id="@+id/tv_pr_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_pr_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pr_max"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_pr_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px20"
+            android:layout_toLeftOf="@+id/btn_spo2_start_measure"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_default"
+            android:textSize="@dimen/px40">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_spo2_start_measure"
+            android:layout_width="116px"
+            android:layout_height="50px"
+            android:background="@drawable/btn_selector_blue"
+            android:gravity="center"
+            android:text="@string/start_measure"
+            android:textColor="@color/menuText"
+            android:textSize="22px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

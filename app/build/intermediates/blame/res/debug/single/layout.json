@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bene_trinity.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_bene_trinity.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_mesure_success.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_spo2_mesure_success.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_nibp_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_nibp_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_urt_check.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\item_urt_check.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ghb.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_ghb.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_urt_check.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\title_urt_check.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_video.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_video.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\textview.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_height.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_height.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_spo2_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistical_table_title.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\item_statistical_table_title.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_urine.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_urine.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ecg_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_ecg_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_view.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\pop_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_glu2.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_glu2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_ecg_report.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\pop_ecg_report.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ghb_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_ghb_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_nibp_setting.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\dialog_nibp_setting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_hemoglobin_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_hemoglobin_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_input_with_hand.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_input_with_hand.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_hb.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_hb.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_radiogroup.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_radiogroup.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defineview_edit_layout.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\defineview_edit_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blood_fat.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_blood_fat.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_measure_ecg.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_measure_ecg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_statistical_data.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\dialog_statistical_data.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_measure_quickly.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_measure_quickly.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_measure_list.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\item_measure_list.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_glu_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_glu_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_bene.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_bene.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_horizontal.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_horizontal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_measure.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_spo2_measure.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hemoglobin.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_hemoglobin.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_template.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_template.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_glu.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_glu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistical_table.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\item_statistical_table.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_urt.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_urt.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_spo2.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_spo2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ghb_reference.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_ghb_reference.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wbc.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_wbc.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spo2.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_spo2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_measure_list_three.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\item_measure_list_three.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wbc_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_wbc_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg_guide.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\fragment_ecg_guide.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_temp.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_temp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_bp.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_value_bp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout2.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\linear_layout2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_blood_fat.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\include_measure_blood_fat.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_temp_tutorial.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\layout_temp_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout.xml",
+        "source": "E:\\yitiji\\healmeausure\\app\\src\\main\\res\\layout\\linear_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\healmeausure\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\72cdddcb385e6e62175849b5bf28fd1203f38e14\\output\\res\\layout\\abc_dialog_title_material.xml"
+    }
+]

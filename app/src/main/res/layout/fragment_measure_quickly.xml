@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/px10"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_nibp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/include_measure_value_bp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_spo2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_measure_value_spo2"/>
+
+            <!---->
+            <com.konsung.ui.defineview.WaveFormSpo2
+                android:id="@+id/spo2_wave"
+                android:layout_width="278px"
+                android:layout_height="0dp"
+                android:layout_marginTop="-5dp"
+                android:layout_weight="1"
+                android:background="@color/spo2_bg_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/include_measure_value_temp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_urt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_measure_value_urine"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_group_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:orientation="vertical">
+        <!--快检界面3特有界面，短的血糖检测-->
+        <LinearLayout
+            android:id="@+id/ll_glu_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include layout="@layout/include_measure_value_glu2"/>
+        </LinearLayout>
+
+        <!--**************************************************************-->
+
+
+        <!--快检界面1-->
+        <LinearLayout
+            android:id="@+id/ll_bene_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include layout="@layout/include_measure_bene"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_hb_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <include layout="@layout/include_measure_hb"/>
+        </LinearLayout>
+
+
+        <!--快检界面2,特有界面，身高体重（布局一样）-->
+
+        <LinearLayout
+            android:id="@+id/ll_height_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/include_height"
+                layout="@layout/include_measure_value_height"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_weight_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/include_weight"
+                layout="@layout/include_measure_value_height"/>
+        </LinearLayout>
+
+        <!--*************************************************************-->
+
+
+        <!--快检界面4特有界面,血脂四项-->
+        <LinearLayout
+            android:id="@+id/ll_blood_fat_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+            <include layout="@layout/include_measure_blood_fat"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

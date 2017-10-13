@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="port_drive_library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/port_drive_library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

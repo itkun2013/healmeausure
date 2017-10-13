@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/measure_value_text_color</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorControlActivated">@color/list_sel</item>
+    </style>
+
+    <!--无标题正在加载主题-->
+    <!--1、无标题栏-->
+    <!--2、启动时显示正在加载背景图片-->
+    <style name="NoTitleLoadingTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@mipmap/bg_pic2</item>
+    </style>
+
+    <style name="myTransparent" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/video_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+
+    <style name="text_24_gray">
+        <item name="android:textColor">#666</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="report_text_style">
+        <item name="android:textColor">@color/report_text_color</item>
+        <item name="android:textSize">@dimen/px20</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_24_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">@dimen/px24</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="value_layout_style">
+        <item name="android:layout_width">480px</item>
+        <item name="android:layout_height">174px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="style_look_video">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/rounded_rectangle_grey</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/menuText</item>
+        <item name="android:text">@string/look_tutorial_video</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="style_ecg_probe_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/px18</item>
+        <item name="android:textColor">@color/ecg_text_color</item>
+    </style>
+
+    <style name="btn_nibp_setting">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">14px</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">@color/nibp_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rectangle_btn</item>
+    </style>
+</resources>

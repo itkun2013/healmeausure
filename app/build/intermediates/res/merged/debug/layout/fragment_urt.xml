@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:background="@drawable/rounded_rectangle"
+    android:paddingStart="@dimen/urt_title_margin_left">
+
+    <TextView
+        android:id="@+id/title_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/urt_title_margin_top"
+        android:text="@string/urt_check_fourteen"
+        android:textColor="@color/measure_name_text_color"
+        android:textSize="@dimen/urt_measure_name_size"
+        />
+
+    <LinearLayout
+        android:id="@+id/urt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_tx"
+        android:layout_marginTop="@dimen/urt_title_margin_bottom"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/title_urt_check"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/px16"
+        android:background="@drawable/rounded_rectangle_grey"
+        android:padding="5dp"
+        android:text="@string/look_tutorial_video"
+        android:textColor="@color/menuText"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px180"
+    android:id="@+id/ll_measure_item_all"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px60"
+        android:orientation="horizontal"
+        android:id="@+id/ll_measure_item1"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_measure_item1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_measure1"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/px60"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/menuText_nor"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/iv_measure_done1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_measure_item2"
+        android:visibility="gone"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_measure_item2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_measure2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/menuText_nor"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/iv_measure_done2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px60"
+        android:orientation="horizontal"
+        android:id="@+id/ll_measure_item3"
+        android:visibility="gone"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_measure_item3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_measure3"
+            android:layout_width="70dp"
+            android:layout_height="@dimen/px60"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/menuText_nor"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/iv_measure_done3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

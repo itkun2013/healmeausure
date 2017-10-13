@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="278px"
+              android:layout_height="463px"
+              android:background="@drawable/rounded_rectangle"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/px20"
+        android:layout_marginTop="@dimen/px10"
+        android:gravity="center"
+        android:text="@string/four_items_blood_lipid"
+        android:textColor="@color/measure_name_text_color"
+        android:textSize="@dimen/px18"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:layout_marginTop="@dimen/px5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginTop="@dimen/px5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_cho"
+                android:textColor="@color/title_black"
+                android:textSize="@dimen/px18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_mmol_l"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14"/>
+
+            <TextView
+                android:id="@+id/tv_max_total_cho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_min_total_cho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px5"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_total_cho_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_default"
+                android:textSize="@dimen/px60"
+                />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginTop="@dimen/px5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trig"
+                android:textColor="@color/title_black"
+                android:textSize="@dimen/px18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_mmol_l"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14"/>
+
+            <TextView
+                android:id="@+id/tv_max_trig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_min_trig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px5"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_trig_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_default"
+                android:textSize="@dimen/px60"
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginTop="@dimen/px5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hdl"
+                android:textColor="@color/title_black"
+                android:textSize="@dimen/px18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_mmol_l"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14"/>
+
+            <TextView
+                android:id="@+id/tv_max_hdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_min_hdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px5"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_hdl_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_default"
+                android:textSize="@dimen/px60"
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginTop="@dimen/px5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ldl"
+                android:textColor="@color/title_black"
+                android:textSize="@dimen/px18"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_mmol_l"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14"/>
+
+            <TextView
+                android:id="@+id/tv_max_ldl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_min_ldl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_text"
+                android:textSize="@dimen/px18">
+
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/px5"
+            android:layout_marginLeft="@dimen/px10"
+            android:layout_marginRight="@dimen/px10"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_ldl_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/invalid_data"
+                android:textColor="@color/value_default"
+                android:textSize="@dimen/px60"
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

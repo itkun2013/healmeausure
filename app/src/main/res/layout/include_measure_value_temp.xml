@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--温度-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="278px"
+    android:layout_height="110px"
+    android:background="@drawable/rounded_rectangle"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginTop="@dimen/px5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"
+            android:textColor="@color/measure_name_text_color"
+            android:textSize="@dimen/px18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_temp"
+            android:textColor="@color/measure_name_text_color"
+            android:textSize="@dimen/px14" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px5"
+        android:layout_marginLeft="@dimen/px10"
+        android:layout_marginRight="@dimen/px10"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv_temp_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_temp_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_text"
+            android:textSize="@dimen/px18">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_temp_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:text="@string/invalid_data"
+            android:textColor="@color/value_default"
+            android:textSize="@dimen/px60"/>
+    </RelativeLayout>
+
+</LinearLayout>

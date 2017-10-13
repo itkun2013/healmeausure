@@ -1,0 +1,126 @@
+apply plugin: 'com.android.application'
+
+import org.tmatesoft.svn.core.wc.*
+
+apply plugin: 'bugly'
+
+bugly {
+    appId = '3de9dc4a26' // 注册时分配的App ID
+    appKey = '36e89192-6487-4f89-82be-513c78251f75' // 注册时分配的App Key
+}
+
+// 获取软件的svn版本
+def getSvnRevision() {
+    ISVNOptions options = SVNWCUtil.createDefaultOptions(true);
+    SVNClientManager clientManager = SVNClientManager.newInstance(options);
+    SVNStatusClient statusClient = clientManager.getStatusClient();
+    SVNStatus status = statusClient.doStatus(projectDir, false);
+    SVNRevision revision = status.getCommittedRevision();
+    return (Integer) revision.getNumber();
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    def AREA = "BasicApp"
+    def APP_NAME = "HealthMeasure"
+
+    defaultConfig {
+        applicationId "com.konsung.healthmeasure"
+        minSdkVersion 22
+        targetSdkVersion 25
+        // 获取svn版本，用于作为修订版本号
+        versionCode getSvnRevision()
+        // 填写软件版本，后缀用于区分不同项目
+        versionName "1.0.0"
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+    }
+
+    // 签名配置
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'healthone'
+            keyPassword 'ks888888'
+            storeFile file('healthone.jks')
+            storePassword 'ks888888'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // release版本加入签名配置信息
+            signingConfig signingConfigs.releaseConfig
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // release版本加入签名配置信息
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+
+    // 自定义APK安装包名
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.each {
+                output ->
+                    if (buildType.name.equals("debug")) {
+                        output.outputFile = new File(output.outputFile.parent,
+                                "HealthOne" + "_" + APP_NAME + "_r" + defaultConfig.versionCode +
+                                        "_V" + defaultConfig.versionName + "-" + AREA + "-debug"
+                                        + ".apk")
+                    }
+                    if (buildType.name.equals("release")) {
+                        output.outputFile = new File(output.outputFile.parent,
+                                "HealthOne" + "_" + APP_NAME + "_r" + defaultConfig.versionCode + "_V"
+                                        + defaultConfig.versionName + "-" + AREA + ".apk")
+                    }
+            }
+    }
+
+    //升级gradle和gradle插件后，需要增加以下语句，不然会报错
+    packagingOptions {
+        exclude 'META-INF/maven/com.jakewharton/butterknife/pom.xml'
+        exclude 'com/j256/ormlite/core/LICENSE.txt'
+        exclude 'com/j256/ormlite/android/README.txt'
+        exclude 'META-INF/maven/com.jakewharton/butterknife/pom.properties'
+        exclude 'META-INF/maven/com.j256.ormlite/ormlite-core/pom.properties'
+        exclude 'META-INF/maven/com.j256.ormlite/ormlite-android/pom.xml'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'com/j256/ormlite/core/README.txt'
+        exclude 'META-INF/maven/com.j256.ormlite/ormlite-android/pom.properties'
+        exclude 'META-INF/maven/com.j256.ormlite/ormlite-core/pom.xml'
+        exclude 'com/j256/ormlite/android/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

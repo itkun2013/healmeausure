@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="278px"
+             android:layout_height="114px"
+             android:background="@drawable/rounded_rectangle"
+             android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/height"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px18"/>
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_cm"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="@dimen/px14"/>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="70px"
+            android:layout_height="36px"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/action_down"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/save"
+            android:textColor="@color/menuText"
+            android:textSize="@dimen/px18"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_value"
+        android:layout_width="114px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:text="@string/invalid_data"
+        android:textColor="@color/measure_name_text_color"
+        android:textSize="@dimen/px40"/>
+
+</FrameLayout>

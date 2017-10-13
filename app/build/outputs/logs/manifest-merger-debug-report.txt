@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:2:1-86:12
+	package
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:3:11-32
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:6:5-83
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:6:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:7:22-75
+uses-feature#android.hardware.usb.host
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:9:5-61
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:9:19-59
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:32:5-80
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:34:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:37:5-74
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:37:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:40:5-72
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:40:22-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:43:5-78
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:43:22-76
+application
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:44:5-84:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fe871564cf2e0d3ac49af227ad76884d441745fa\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\10560146e0c82599e204d78d0e6890d60275c50e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\d5e2e786a14e3db8bf7f67dfe15aae521db53088\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7b91d3a7b5ceaeb755e5b565f4c65bc1e426db6e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\7eff82732546a3f43c2d0a3e0683f00346c28445\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\e42f846419ccf03acf0c0e8268fdaf526dca9bc2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\14c9fe67bd3051814315fbdb50e1a4dc1c6e5ed2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\04af41be745c1096ffd55d1f3552b2b0ce4853b5\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:49:9-41
+	android:hardwareAccelerated
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:47:9-43
+	android:allowBackup
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:46:9-35
+	android:icon
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:48:9-43
+	android:largeHeap
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:50:9-33
+	android:theme
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:51:9-51
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:45:9-41
+activity#com.konsung.ui.activity.MeasureActivity
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:52:9-66:20
+	android:screenOrientation
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:57:13-50
+	android:label
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:56:13-45
+	android:hardwareAccelerated
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:55:13-48
+	android:windowSoftInputMode
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:58:13-55
+	android:configChanges
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:54:13-70
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:53:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:59:13-64:29
+action#android.intent.action.MAIN
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:60:17-68
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:62:27-74
+category#android.intent.category.DEFAULT
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:63:17-75
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:63:27-73
+service#com.konsung.service.AIDLServer
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:68:9-75:19
+	android:enabled
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:70:13-35
+	android:exported
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:69:13-47
+intent-filter#com.konsung.aidlServer
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:72:13-74:29
+action#com.konsung.aidlServer
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:73:17-64
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:73:25-62
+activity#com.konsung.ui.defineview.HelpVideoActivity
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:76:9-79:15
+	android:theme
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:77:13-60
+provider#com.konsung.provider.ServiceContentProvider
+ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:80:9-83:38
+	android:authorities
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:82:13-69
+	android:exported
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:83:13-36
+	android:name
+		ADDED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml:81:13-60
+uses-sdk
+INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fe871564cf2e0d3ac49af227ad76884d441745fa\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\10560146e0c82599e204d78d0e6890d60275c50e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Administrator\.android\build-cache\aa18657b1dc8db69ced34657a1aa3be7dff47d88\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\d5e2e786a14e3db8bf7f67dfe15aae521db53088\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7b91d3a7b5ceaeb755e5b565f4c65bc1e426db6e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\7eff82732546a3f43c2d0a3e0683f00346c28445\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\e42f846419ccf03acf0c0e8268fdaf526dca9bc2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\14c9fe67bd3051814315fbdb50e1a4dc1c6e5ed2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\04af41be745c1096ffd55d1f3552b2b0ce4853b5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tencent.bugly:crashreport:2.6.5] C:\Users\Administrator\.android\build-cache\1a41baf4eaca932fd4e73a3bd3763c90105ad075\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\Administrator\.android\build-cache\9a6411f74035b36b199ac7acb4f681efe6f83756\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+		INJECTED from E:\yitiji\healmeausure\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fe871564cf2e0d3ac49af227ad76884d441745fa\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\10560146e0c82599e204d78d0e6890d60275c50e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\d5e2e786a14e3db8bf7f67dfe15aae521db53088\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\7b91d3a7b5ceaeb755e5b565f4c65bc1e426db6e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\7eff82732546a3f43c2d0a3e0683f00346c28445\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\e42f846419ccf03acf0c0e8268fdaf526dca9bc2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\14c9fe67bd3051814315fbdb50e1a4dc1c6e5ed2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\04af41be745c1096ffd55d1f3552b2b0ce4853b5\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\72cdddcb385e6e62175849b5bf28fd1203f38e14\output\AndroidManifest.xml:26:9-47

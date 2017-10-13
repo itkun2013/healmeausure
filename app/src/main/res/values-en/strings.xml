@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Measure</string>
+    <!--主界面 -->
+    <string name="sex_unknown">Unknown</string>
+    <string name="sex_man">M</string>
+    <string name="sex_woman">F</string>
+    <string name="sex_unsay">N/A</string>
+    <string name="quickly">快速检测</string>
+    <string name="ecg">ECG</string>
+    <string name="spo2">SpO2</string>
+    <string name="bp">NIBP</string>
+    <string name="glu">GLU</string>
+    <string name="ua">UA</string>
+    <string name="total_cho">TC</string>
+    <string name="temp">TEMP</string>
+    <string name="wbc">LEU</string>
+    <string name="urine">URT</string>
+    <string name="hb">HB</string>
+    <string name="hba1c">糖化血红蛋白</string>
+
+    <string name="blood_fat"></string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+
+    <!--公共-->
+    <string name="start_measure">Start</string>
+    <string name="stop_measure">Stop</string>
+    <string name="pls_start_measure">Click Start</string>
+    <string name="doing_measure">Measuring</string>
+    <string name="measure_success">测量成功</string>
+    <string name="measure_result">Diagno Result</string>
+    <string name="trend_statistics">趋势统计</string>
+    <string name="measure_timeout">Measurement failure, measurement timeout</string>
+    <string name="please_start_service">Start measurement</string>
+    <string name="please_lead_line">Connect lead-wires</string>
+    <string name="invalid_data">-?-</string>
+    <string name="colon">:</string>
+    <string name="ksm5">KSM5</string>
+    <string name="look_tutorial_video">Watch video</string>
+    <string name="age">Age</string>
+    <string name="idcard_colon">ID card number:</string>
+    <string name="measure_time_colon">Measurement Time:</string>
+    <string name="flag_value_high">↑</string>
+    <string name="flag_value_low">↓</string>
+    <!--脉率是多处能用到的-->
+    <string name="pr_cn">PR</string>
+
+    <string name="health_unit_bpm">bpm</string>
+    <string name="ten_results">Last ten results-statistics</string>
+    <string name="dialog_table">Trend table</string>
+    <string name="dialog_pic">Trend graph</string>
+    <string name="serial">Number</string>
+    <string name="measure_time">Measurement Time</string>
+    <string-array name="patient_type_array">
+        <item>Adult</item>
+        <item>Pediatric</item>
+        <item>Infant</item>
+    </string-array>
+    <!--心电-->
+    <string name="ecg_checking">ECG measuring, please wait</string>
+    <string name="ecg_check_complited">Congratulations, measurement success</string>
+    <string name="ecg_getHr_success">Congratulations, HR measurement success</string>
+    <string name="ecg_check_timeout">Measurement timeout, please measure again!</string>
+    <string name="lead_layout">Lead Type</string>
+    <string name="get_hr">Obtain HR</string>
+    <string name="please_access">Connect</string>
+    <string name="pole_off">Lead Off</string>
+    <string name="please_lead_access">Connect lead</string>
+    <string name="install_electrodes">ECG Lead Placements</string>
+    <string name="view_report">View report</string>
+    <string name="wave_velocity">Wave speed</string>
+    <string name="amplitude">Wave gain</string>
+    <string name="ecg_hr">HR</string>
+    <string name="HR">HR</string>
+    <string name="P">P</string>
+    <string name="pr">PR</string>
+    <string name="qrs">QRS</string>
+    <string name="qtQtc">QT/QTC</string>
+    <string name="P_QRS_T">P/QRS/T</string>
+    <string name="rv5Sv1">RV5/SV1</string>
+    <string name="rv5Sv1Add">RV5+SV1</string>
+    <string name="ecg_hr_unit">bpm</string>
+    <string name="qt_qtc_interval">QT/QTC interval:</string>
+    <string name="pr_interval">PR Interval:</string>
+    <string name="p_qrs_t">P/QRS/T Axis:</string>
+    <string name="qrs_interval">QRS Duration:</string>
+    <string name="rv5_sv1">RV5/SV1:</string>
+    <string name="rv5__sv1">RV5+SV1:</string>
+    <string name="ecg_diagnose_result">Diagnosis:</string>
+    <string name="ecg_title_I">I</string>
+    <string name="ecg_title_II">II</string>
+    <string name="ecg_title_III">III</string>
+    <string name="ecg_title_AVR">AVR</string>
+    <string name="ecg_title_AVL">AVL</string>
+    <string name="ecg_title_AVF">AVF</string>
+    <string name="ecg_title_V1">V1</string>
+    <string name="ecg_title_V2">V2</string>
+    <string name="ecg_title_V3">V3</string>
+    <string name="ecg_title_V4">V4</string>
+    <string name="ecg_title_V5">V5</string>
+    <string name="ecg_title_V6">V6</string>
+    <string name="ecg_title_V">V</string>
+    <string name="avf"> LL</string>
+    <string name="V6">V6</string>
+    <string name="V5">V5</string>
+    <string name="V4">V4</string>
+    <string name="V3">V3</string>
+    <string name="V2">V2</string>
+    <string name="V1">V1</string>
+    <string name="avr">RA</string>
+    <string name="avl">LA</string>
+    <string name="ecg_report_title">12-Lead ECG Report</string>
+    <string name="stop_report">Close and Exit</string>
+    <string name="ecg_wave_data">25mm/s&#160;&#160;&#160;&#160;10mm/mV&#160;&#160;&#160;&#160;
+        0.67~150Hz&#160;&#160;&#160;&#160;AC50</string>
+    <string-array name="ecg_lead">
+        <item>12-lead</item>
+    </string-array>
+    <string-array name="ecg_velocity">
+        <item>5mm/s</item>
+        <item>6.25mm/s</item>
+        <item>10mm/s</item>
+        <item>12.5mm/s</item>
+        <item>25mm/s</item>
+        <item>50mm/s</item>
+    </string-array>
+    <string-array name="ecg_amplitude">
+        <item>x0.25</item>
+        <item>x0.5</item>
+        <item>x1</item>
+        <item>x2</item>
+        <item>Auto</item>
+    </string-array>
+    <!--血氧-->
+    <string name="spo2_pls_install_probe">Connect to monitor</string>
+    <string name="spo2_pls_insert_finger">Apply sensor to finger</string>
+    <!--百捷三合一 血糖 尿酸 总胆固醇-->
+    <string name="before_glu">Fasting glucose</string>
+    <string name="after_glu">GLU After Meal</string>
+    <string name="link_device">Connect to monitor</string>
+    <string name="plan_cdv">Preparing strip</string>
+    <string name="blood_verify">Blood collect and test</string>
+    <!--血红蛋白 血红蛋白、红细胞积压值-->
+    <string name="red_blood_cells_backlog_value">Hematocrit value</string>
+    <string name="connect_the_detector">Preparing equipment and strip</string>
+    <string name="blood_test">Blood collect and test</string>
+    <!--血脂四项 总胆固醇、甘油三酯、低密度脂蛋白、高密度脂蛋白-->
+    <string name="trig">Triglycerides</string>
+    <string name="ldl">Low-density lipoprotein</string>
+    <string name="hdl">High-density lipoprotein</string>
+
+    <string name="insert_the_strip">Insert strip and collect blood</string>
+    <string name="begin_measure">Starting test</string>
+    <!--白细胞-->
+    <string name="link_detector">Connect to analyzer</string>
+    <string name="reagent_for_blood_sampling">Collect blood sample</string>
+
+    <!--血压-->
+    <string name="nibp_sys">SYS</string>
+    <string name="nibp_dia">DIA</string>
+    <string name="nibp_cuff">Cuff pressure:</string>
+    <string name="nibp_setting">NIBP Settings</string>
+    <string name="nibbp_result_1">Measurement failure, cuff too loose</string>
+    <string name="nibbp_result_2">Measurement failure, system leakage</string>
+    <string name="nibbp_result_3">Measurement failure, air pressure error</string>
+    <string name="nibbp_result_4">Measurement failure, signal week</string>
+    <string name="nibbp_result_5">Measurement failure, measurement over range</string>
+    <string name="nibbp_result_6">Measurement failure, signal interference</string>
+    <string name="nibbp_result_7">Measurement failure, cuff pressure too high</string>
+    <string name="nibbp_result_8">Measurement failure, signal saturation</string>
+    <string name="nibbp_result_9">Measurement failure, leakage detection failed</string>
+    <string name="nibbp_result_10">Measurement failure, system failure</string>
+    <string name="nibbp_result_11">Measurement failure, cuff type wrong</string>
+    <string name="nibbp_result_12">Measurement failure, measurement timeout</string>
+    <string name="nibbp_result_13">Leakage test Ok</string>
+    <string name="nibp_connect_healthone">Connect to monitor</string>
+    <string name="nibp_bind_cuff">Properly applied cuff</string>
+    <string name="nibp_calibrate">Calibration</string>
+    <string name="nibp_stop_calibrate">Stop Calibration</string>
+    <string name="nibp_leak_test">Leakage Test</string>
+    <string name="nibp_stop_leak_test">Stop leakage test</string>
+    <string name="nibp_reset">Reset</string>
+    <string name="nibp_introduction_2">2. Apply cuff to upper arm properly, cuff should not be too tight to be able to insert two fingers. Make sure that the symbol ↓ is over the artery.</string>
+    <string name="nibp_introduction_1">1. Connect extend cable to cuff, connect the other end to monitor\'s NIBP interface</string>
+    <string name="flag_down_pic">↓</string>
+    <!--体温-->
+    <string name="temp_pls_install_probe">Connect forehead thermometer </string>
+    <string name="temp_pls_move_to_head">Vertically towards middle of forehead </string>
+    <string name="irtemp_introduction_1">1. Connect thermometer to monitor</string>
+    <string name="temp_introduction_2">2. Vertically towards middle of forehead and keep a distance of 3cm, then press measure button.</string>
+
+    <!--Unit/各种单位-->
+    <string name="unit_times_per_minute">bpm</string>
+    <string name="unit_mmhg">mmHg</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_temp">℃</string>
+    <string name="unit_mmol_l">mmol/L</string>
+    <string name="unit_index">*10^9/L</string>
+    <string name="unit_cells">Cells/μL</string>
+    <string name="unit_umol">μmol/L</string>
+    <string name="unit_gl">g/L</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_mg_dl">mg/dL</string>
+    <string name="unit_mg_l">mg/L</string>
+    <string name="unit_mmol_mol">mmol/mol</string>
+    <string name="unit_divide">/</string>
+    <string name="unit_ms">ms</string>
+    <string name="unit_mv">mV</string>
+    <string name="unit_limit">°</string>
+
+
+    <!--尿常规-->
+    <string name="urt_check_fourteen">14-item Urinalysis</string>
+    <string name="urt_check_eleven">11-item Urinalysis</string>
+    <string name="urt_check">%s-item Urinalysis</string>
+    <string name="num">Number</string>
+    <string name="refer_value_name">Reference Value</string>
+    <string name="result_unit">Unit</string>
+    <string name="result_flag">Mark</string>
+    <string name="result">Result</string>
+    <string name="item_name">Item name</string>
+    <string name="item_code">Item Code</string>
+
+    <string name="urt_code_leu">LEU</string>
+    <string name="urt_code_nit">NIT</string>
+    <string name="urt_code_ubg">UBG</string>
+    <string name="urt_code_pro">PRO</string>
+    <string name="urt_code_ph">pH</string>
+    <string name="urt_code_sg">SG</string>
+    <string name="urt_code_bld">BLD</string>
+    <string name="urt_code_ket">KET</string>
+    <string name="urt_code_bil">BIL</string>
+    <string name="urt_code_glu">GLU</string>
+    <string name="urt_code_vc">VC</string>
+    <string name="urt_code_ma">MA</string>
+    <string name="urt_code_cr">Cr</string>
+    <string name="urt_code_ca">Ca</string>
+    <string name="urt_code_ac">AC</string>
+
+    <string name="urt_name_leu">Leukocyte</string>
+    <string name="urt_name_nit">Nitrite</string>
+    <string name="urt_name_ubg">Urobilinogen</string>
+    <string name="urt_name_pro">Protein</string>
+    <string name="urt_name_ph">pH value</string>
+    <string name="urt_name_sg">SG</string>
+    <string name="urt_name_bld">Occult blood</string>
+    <string name="urt_name_bld_u120">Occult blood</string>
+
+    <string name="urt_name_ket">Ketone</string>
+    <string name="urt_name_bil">Bilirubin</string>
+    <string name="urt_name_glu">Glucose</string>
+    <string name="urt_name_vc">Vitamin C</string>
+    <string name="urt_name_vc_u120">抗坏血酸</string>
+
+    <string name="urt_name_ma">Microalbumin</string>
+    <string name="urt_name_cr">Creatinine</string>
+    <string name="urt_name_ca">Calcium ion</string>
+    <string name="urt_name_ac">A:C</string>
+
+    <string name="uri_reference_value">Negative(-)</string>
+    <string name="uri_default_value">-</string>
+
+    <string-array name="uri_value">
+        <item>-</item>
+        <item>+-</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+</item>
+        <item>Normal</item>
+        <item><![CDATA[<=10]]></item>
+        <item><![CDATA[>=150]]></item>
+        <item><![CDATA[<=1.0]]></item>
+        <item><![CDATA[>=10]]></item>
+        <item><![CDATA[<=0.9]]></item>
+        <item><![CDATA[>=26.4]]></item>
+    </string-array>
+
+    <string-array name="uri_value_u120">
+        <item>-</item>
+        <item>+-</item>
+        <item>1+</item>
+        <item>2+</item>
+        <item>3+</item>
+        <item>4+</item>
+        <item>+</item>
+        <item>Normal</item>
+        <item><![CDATA[<=10]]></item>
+        <item><![CDATA[>=150]]></item>
+        <item><![CDATA[<=1.0]]></item>
+        <item><![CDATA[>=10]]></item>
+        <item><![CDATA[<=0.9]]></item>
+        <item><![CDATA[>=26.4]]></item>
+    </string-array>
+
+    <string-array name="ca_value_u120">
+        <item>4 mg/dL</item>
+        <item>10 mg/dL</item>
+        <item>20 mg/dL</item>
+        <item>30 mg/dL</item>
+        <item>40 mg/dL</item>
+    </string-array>
+
+    <string-array name="cre_value_u120">
+        <item>10 mg/dL</item>
+        <item>50 mg/dL</item>
+        <item>100 mg/dL</item>
+        <item>200 mg/dL</item>
+        <item>300 mg/dL</item>
+    </string-array>
+
+    <string-array name="alb_value_u120">
+        <item>10 mg/L</item>
+        <item>30 mg/L</item>
+        <item>80 mg/L</item>
+        <item>150 mg/L</item>
+    </string-array>
+
+
+    <!--身高体重-->
+    <string name="save">Save</string>
+    <string name="save_success">Saved successfully</string>
+    <string name="pls_input_height">Enter height</string>
+    <string name="pls_input_weight">Enter weight</string>
+    <string name="tips_input_weight">Note: enter weight manually and save</string>
+    <string name="tips_input_height">Note: enter height manually and save</string>
+    <string name="service_err">服务未初始化，请稍后再试</string>
+
+    <!--糖化血红蛋白-->
+    <string name="ghb_ngsp">HbA1c NGSP</string>
+    <string name="ghb_ifcc">HbA1c IFCC</string>
+    <string name="ghb_eag">eAG</string>
+    <string name="ghb_reference_sickness">Pre–diabetes:6.0–6.5%</string>
+    <string name="ghb_reference_normal">Normal Reference Value:4.3–6.0%</string>
+    <string name="ghb_solution_water">Configure the analyzer</string>
+    <string name="spo2_tutorial_2">The probe side with wire should be placed along with the back of hand, probe transmitter is facing the nail</string>
+    <string name="spo2_tutorial_1">Connect the sensor to monitor\'s SPO2 interface</string>
+    <string name="urine_value_convert_error">Conversion results do not meet the design, failed to obtain normal urinalysis results, please check ReferenceUtils.valueToString () or R.string.uri_value</string>
+
+    <!--快速检测-->
+    <string name="shaft_voltage">Cuff pressure:</string>
+    <string name="count_down">Measuring</string>
+    <string name="leu">LEU</string>
+    <string name="standard_">-</string>
+    <string name="ca">Ca</string>
+    <string name="ac">A:C</string>
+    <string name="cr">Cr</string>
+    <string name="ma">MA</string>
+    <string name="vc">VC</string>
+    <string name="vc_u120">VC</string>
+    <string name="glu2">GLU</string>
+    <string name="bil">BIL</string>
+    <string name="ket">KET</string>
+    <string name="bld">BLD</string>
+    <string name="bld_u120">BLD</string>
+    <string name="sg">SG</string>
+    <string name="ph">pH</string>
+    <string name="pro">PRO</string>
+    <string name="ubg">UBG</string>
+    <string name="nit">NIT</string>
+    <string name="ph_standard_value">4.6~8.0</string>
+    <string name="sg_standard_value">1.015~1.025</string>
+    <string name="before_meal">Hollow</string>
+    <string name="after_meal">After Meal</string>
+    <string name="before_meal_with_bracket">(Hollow)</string>
+    <string name="after_meal_with_bracket">(After Meal)</string>
+    <string name="four_items_blood_lipid">Blood-lipid items</string>
+    <string name="glu_guide_1">1. Face-up and vertically inserting strip</string>
+    <string name="glu_guide_2">2. Collect blood, gently touch the blood with strip</string>
+    <string name="glu_guide_3">3. Remove strip when test finished</string>
+    <string name="wbc_guide_3">3. Gently close cuvette holder.</string>
+    <string name="wbc_guide_2">2. Place microcuvette in cuvette holder.</string>
+    <string name="wbc_guide_1">1. Fill the microcuvette with blood drop in one continuous process.</string>
+    <string name="hemoglobin_guide_1">1. Face-up and vertically inserting strip</string>
+    <string name="hemoglobin_guide_2">2. Collect blood, gently touch the blood with strip</string>
+    <string name="hemoglobin_guide_3">3. Remove strip when test finished</string>
+    <string name="ghb_guide_1">1. Add 5µL sample in R1 reagent, shake and place for 2 minutes.</string>
+    <string name="ghb_guide_2">2. Add 25µL mixture to glassware</string>
+    <string name="ghb_guide_3">3. Put 25µL R2 reagent to glassware</string>
+    <string name="ghb_guide_4">4. Put glassware to analyzer</string>
+    <string name="zero">0</string>
+    <string name="ecg_guide_1">Connect ECG leadwire to monitor\'s ECG interface</string>
+    <string name="body_probe">Limb lead</string>
+    <string name="chest_probe">Precordial Lead</string>
+    <string name="ecg_c1">Red(C1): on the fourth intercostal space at the right sternal border. </string>
+    <string name="ecg_c2">Yellow(C2): on the fourth intercostal space at the left sternal border.</string>
+    <string name="ecg_c3">Green(C3): placement: midway between the C2 and C4 electrode positions. </string>
+    <string name="ecg_c4">Brown(C4): on the fifth intercostal space at the left midclavicular line. </string>
+    <string name="ecg_c5">Black(C5): on the left anterior axillary line, horizontal with the C4 electrode position. </string>
+    <string name="ecg_c6">Purple(C6): on the left midaxillary line, horizontal with the C4 electrode position. </string>
+    <string name="ecg_r">Red(R): Right wrist</string>
+    <string name="ecg_l">Yellow(L): Left wrist </string>
+    <string name="ecg_n">Black(N): Right ankle</string>
+    <string name="ecg_f">Green(F): Left ankle </string>
+    <string name="can_not_higher">Cannot exceed</string>
+
+    <string name="rule_limit_2_after_point">%.2f</string>
+    <string name="rule_limit_3_after_point">%.3f</string>
+
+    <string name="calibrating">Calibrating</string>
+    <string name="leak_testing">Leakage Test Running</string>
+    <string name="wrong_ecg_position">心电传入的位置数量和颜色有误，请传入颜色值两倍的点数</string>
+    <string name="no_current_citizen">No current user</string>
+    <string name="no_measure_history">No measurement records</string>
+    <string name="table_num">Number</string>
+    <string name="table_time">Time</string>
+    <string name="table_value_1">Value 1</string>
+    <string name="table_value_2">Value 2</string>
+    <string name="table_value_3">Value 3</string>
+    <string name="table_value_4">Value 4</string>
+    <string name="video_exit">Exit</string>
+    <string name="report_name">Name</string>
+    <string name="report_gender">Gender</string>
+    <string name="report_age">Age</string>
+    <string name="report_id">ID</string>
+    <string name="report_measure_time">Measurement Time</string>
+</resources>

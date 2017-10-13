@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparency">#00000000</color>
+    /**主界面**/
+    <color name="menuText_nor">#333333</color>
+    <color name="menuText">#fff</color>
+    <color name="background_nor">#333333</color>
+    <color name="background">#fff</color>
+    <color name="background1">#e6e6e6</color>
+    <color name="line">#cccccc</color>
+    <color name="line2">#bfbfc0</color>
+    /**公共**/
+    <color name="chartXY_color">#2d6e92</color>
+    <color name="chart_color">#f8a20f</color>
+    <color name="text_color6">#1fbba6</color>
+    <color name="text_color7">#0faaf7</color>
+    <color name="text_color8">#91ba20</color>
+    /**心电**/
+    <color name="measure_name_text_color">#1abec0</color>
+    <color name="measure_value_text_color">#1abec0</color>
+    <color name="measure_tips_text_color">#1abec0</color>
+    <color name="measure_success_text_color">#333333</color>
+    <color name="report_text_color">#323333</color>
+    <color name="spo2_bg_color">#000</color>
+
+    <color name="title_black">#111111</color>
+    <color name="value_text">#666666</color>
+    <color name="value_default">#808080</color>
+
+
+    <color name="error_value_color">#f86b4f</color>
+
+    <color name="progress_circle">#cccccc</color>
+    <color name="progress_color">#1abec0</color>
+
+    <color name="measureMax">#666666</color>
+    <color name="gray">#999999</color>
+    <color name="list_sel">#519eea</color>
+    <color name="list_nor">#aad1ea</color>
+
+    <color name="nibp_btn_normal_stroke_color">#1abec0</color>
+    <color name="nibp_btn_unable_stroke_color">#cccccc</color>
+    <color name="nibp_btn_click_corner_color">#4d1abec0</color>
+
+    <color name="ecg_line_red">#e50014</color>
+    <color name="ecg_line_yellow">#fef200</color>
+    <color name="ecg_line_greed">#039846</color>
+    <color name="ecg_line_brown">#6a2f07</color>
+    <color name="ecg_line_black">#000</color>
+    <color name="ecg_line_purple">#6715e3</color>
+    <color name="ecg_text_color">#333333</color>
+
+    <color name="video_exit_color">#4d666666</color>
+
+    <color name="video_background_color">#00000000</color>
+
+    <color name="ecg_guide_text">#fff</color>
+    <color name="ecg_guide_text_background">#99ffffff</color>
+
+    <color name="ecg_guide_text_black">#333333</color>
+</resources>

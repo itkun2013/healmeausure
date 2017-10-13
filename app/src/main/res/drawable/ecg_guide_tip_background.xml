@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+
+            <solid android:color="@color/ecg_guide_text_background"/> <!-- 定义填充的颜色值 -->
+            <!-- 圆角 -->
+            <corners
+                android:bottomLeftRadius="5px"
+                android:bottomRightRadius="5px"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"/> <!-- 设置四个角的半径 -->
+        </shape>
+    </item>
+    <!-- 填充 -->
+
+
+</layer-list>
